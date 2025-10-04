@@ -15,6 +15,6 @@
   },
   "scripts": {
     "start": "echo 'Run this project with a local dev server like Vite or Create React App'",
-    "build": "echo 'Build this project with a local dev server like Vite or Create React App'"
+    "build": "mkdir public && cp index.html index.tsx App.tsx package.json metadata.json public/ && cp -r components contexts pages services types public/"
   }
 }
